@@ -1,0 +1,3 @@
+# Decision tree
+
+### A decision tree for predicting the species of iris flowers from the Iris dataset works by splitting the data based on the features: sepal length, sepal width, petal length, and petal width. Starting at the root node, the tree divides the dataset into subsets using the feature that best separates the classes. This process continues recursively, creating branches and nodes, until it reaches leaf nodes, which represent the final class labels (species). To make a prediction, the features of a new flower are passed through the tree, following the decisions at each node until a leaf node is reached, which gives the predicted species. Decision trees are easy to understand and interpret but can overfit the data if not properly controlled.
